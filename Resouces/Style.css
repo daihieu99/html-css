@@ -1,0 +1,47 @@
+body {
+    background-color: #e0d9d5;
+    padding: 50px;
+    color: whitesmoke;
+    background-image: url(image/h3.webp);
+
+
+}
+
+.avatar {
+    border-radius: 200px;
+}
+
+h3 {
+    margin: 10px 0px 8px 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    margin: 15px 20px;
+    font-family: 'Pacifico', cursive;
+    ;
+    background-color: white;
+    border: 0;
+    padding: 15px 100px 15px 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 47px -12px 4px -11px rgba(0,0,0,0.17); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 47px -12px 4px -11px rgba(0,0,0,0.17);
+}
+
+.button:hover {
+    color: white;
+
+    background-color: black;
+}
+
+.button {
+    text-shadow: black;
+}
